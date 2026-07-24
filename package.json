@@ -1,0 +1,21 @@
+{
+  "name": "solar-scada-janitza",
+  "version": "1.0.0",
+  "description": "Solar SCADA Dashboard - Janitza + Open-Meteo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["solar", "scada", "janitza", "meteo"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
